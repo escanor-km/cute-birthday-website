@@ -18,7 +18,7 @@ caption: "Every laugh, every hug, every little moment with you means the world t
 },
 {
 src: "photos/photo4.jpeg",
-caption: "Here's to many more birthdays, adventures, and memories together, my love."
+caption: "Here's to many more birthdays, adventures, and memories together."
 },
 {
 src: "photos/photo5.jpeg",
