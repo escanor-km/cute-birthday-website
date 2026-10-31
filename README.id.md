@@ -33,8 +33,8 @@ my-birthday-site/
 │   ├── gif2.gif
 │   └── music.mp3
 └── photos/                → taruh foto-foto kamu di sini
-    ├── photo1.jpg ... photo4.jpg      (buat galeri)
-    └── reason1.jpg ... reason6.jpg     (buat halaman 100 reasons)
+    ├── photo1.jpeg ... photo4.jpeg      (buat galeri)
+    └── reason1.jpeg ... reason6.jpeg     (buat halaman 100 reasons)
 ```
 
 > Semua file GIF, foto, dan musik yang sudah ada sekarang itu **dummy/placeholder** (kotak warna pastel bertuliskan "GANTI AKU"), supaya kamu tahu persis apa yang perlu diganti.
@@ -48,7 +48,7 @@ Kalau kamu dapat ini dari GitHub, klik **Code → Download ZIP**, lalu extract k
 
 ### 2. Ganti foto & GIF-nya
 Buka folder `photos/` dan `assets/`, lalu **timpa file yang sudah ada dengan nama yang sama persis** (termasuk huruf besar/kecilnya!). Contoh:
-- Mau ganti foto galeri? Timpa `photos/photo1.jpg`, `photo2.jpg`, dst dengan foto kamu (boleh `.jpg` atau `.png`, tapi kalau ganti ekstensi, ingat juga ubah nama file-nya di HTML — lihat poin 4).
+- Mau ganti foto galeri? Timpa `photos/photo1.jpeg`, `photo2.jpeg`, dst dengan foto kamu (boleh `.jpeg` atau `.png`, tapi kalau ganti ekstensi, ingat juga ubah nama file-nya di HTML — lihat poin 4).
 - Mau ganti GIF hero di halaman pembuka? Timpa `assets/hero.gif`.
 - Mau ganti lagu? Timpa `assets/music.mp3` dengan lagu kamu sendiri (format mp3).
 
@@ -96,7 +96,7 @@ Semua warna diatur di satu tempat: buka `css/style.css`, cari bagian paling atas
 ## ❓ FAQ / Troubleshooting
 
 **GIF/foto-ku nggak muncul, cuma kotak putih/rusak.**
-Cek nama file-nya harus sama PERSIS dengan yang ada di kode (termasuk huruf besar-kecil dan ekstensi file — `.jpg` beda dengan `.JPG` di beberapa sistem). Pastikan juga filenya beneran ada di folder `assets/` atau `photos/`.
+Cek nama file-nya harus sama PERSIS dengan yang ada di kode (termasuk huruf besar-kecil dan ekstensi file — `.jpeg` beda dengan `.jpeg` di beberapa sistem). Pastikan juga filenya beneran ada di folder `assets/` atau `photos/`.
 
 **Musiknya nggak otomatis muter pas halaman dibuka.**
 Ini disengaja — kebijakan browser modern biasanya blokir audio otomatis sebelum ada interaksi klik dari pengguna. Makanya musiknya baru muter begitu tombol musik (🎵, pojok kanan bawah) diklik.

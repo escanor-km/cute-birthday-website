@@ -33,8 +33,8 @@ my-birthday-site/
 │   ├── gif2.gif
 │   └── music.mp3
 └── photos/                → put your own photos here
-    ├── photo1.jpg ... photo4.jpg      (for the gallery)
-    └── reason1.jpg ... reason6.jpg     (for the 100-reasons page)
+    ├── photo1.jpeg ... photo4.jpeg      (for the gallery)
+    └── reason1.jpeg ... reason6.jpeg     (for the 100-reasons page)
 ```
 
 > Every GIF, photo, and music file included right now is a **dummy placeholder** (a pastel-colored box that says "REPLACE ME"), so you know exactly what needs to be swapped out.
@@ -48,7 +48,7 @@ If you got this from GitHub, click **Code → Download ZIP**, then extract it an
 
 ### 2. Replace the photos & GIFs
 Open the `photos/` and `assets/` folders, then **overwrite the existing files using the exact same filenames** (capitalization matters!). For example:
-- Want new gallery photos? Overwrite `photos/photo1.jpg`, `photo2.jpg`, etc. with your own (`.jpg` or `.png` both work, but if you change the extension, you'll also need to update the filename referenced in the HTML — see step 4).
+- Want new gallery photos? Overwrite `photos/photo1.jpeg`, `photo2.jpeg`, etc. with your own (`.jpeg` or `.png` both work, but if you change the extension, you'll also need to update the filename referenced in the HTML — see step 4).
 - Want a different intro GIF? Overwrite `assets/hero.gif`.
 - Want your own song? Overwrite `assets/music.mp3` with your own track (mp3 format).
 
@@ -96,7 +96,7 @@ All colors are defined in one place: open `css/style.css`, look at the very top 
 ## ❓ FAQ / Troubleshooting
 
 **My GIF/photo isn't showing up — just a broken image icon.**
-Double-check the filename matches EXACTLY what's in the code (including capitalization and file extension — `.jpg` is different from `.JPG` on some systems). Also make sure the file actually exists inside `assets/` or `photos/`.
+Double-check the filename matches EXACTLY what's in the code (including capitalization and file extension — `.jpeg` is different from `.jpeg` on some systems). Also make sure the file actually exists inside `assets/` or `photos/`.
 
 **The music doesn't play automatically when the page loads.**
 That's intentional — modern browsers block audio from autoplaying with sound before there's been any user interaction. That's why the music only starts once the music button (🎵, bottom-right corner) is clicked.
