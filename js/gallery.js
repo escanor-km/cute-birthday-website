@@ -28,6 +28,19 @@ caption: "A beautiful memory that I will always cherish."
 src: "photos/photo6.jpeg",
 caption: "Every moment with you is a special memory."
 },
+{
+src: "photos/photo7.jpeg",
+caption: "Every moment with you is a special memory."
+},
+{
+src: "photos/photo8.jpeg",
+caption: "Every moment with you is a special memory."
+},
+{
+src: "photos/photo9.jpeg",
+caption: "Every moment with you is a special memory."
+},
+
 ];
 
 const photoEl = document.getElementById("currentPhoto");
